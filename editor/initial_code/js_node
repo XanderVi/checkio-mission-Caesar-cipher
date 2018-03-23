@@ -2,11 +2,13 @@
 
 function toEncrypt(text, delta) {
     // your code here
-    return cipher;
+    return text;
 }
 
 var assert = require('assert');
 if (!global.is_checking) {
+    console.log('Example:')
+    console.log(toEncrypt('abc', 10))
 
     // These "asserts" are used for self-checking and not for an auto-testing
     assert.equal(toEncrypt("a b c", 3), "d e f")
